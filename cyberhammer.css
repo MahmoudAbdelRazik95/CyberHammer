@@ -69,7 +69,8 @@
     background-image: url('Images/SVGs/CyberHammerBackground.svg');
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 50% 130%;/*40% 115%*/
+    background-position-y: 1rem;
+    background-size: 50% 110%;/*40% 115%*/
     height: 300px;
   }
 
@@ -88,9 +89,9 @@
   }
 
   .section-text{
-    font-size: 1rem;
+    font-size: 0.95rem;
     line-height: 200%;
-
+    font-weight: bold;
   } 
 
   /* Cards */
