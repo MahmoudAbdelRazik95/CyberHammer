@@ -204,7 +204,7 @@
     }
     .carousel-item{
         height: 16vh;
-        min-height: 180px;
+        min-height: 290px;
     } 
     #card1{
         content:url("Images/Cards/PC/RBYPC.svg");
@@ -348,6 +348,31 @@
     .carousel-item{
         height: 16vh;
         min-height: 265px;
+    }
+    .card-title{
+        margin-top: 3.2rem;
+        padding-left: 0.5rem;
+        font-weight: bold;
+        font-size: 1.8rem;
+    }
+    .game-text{
+        font-size: 1.1rem;
+        padding: 1.1rem 2.8rem 0 0;
+    }
+
+    /* Extra Extra large devices (Extra large screens, 1900px and up) */
+  @media (min-width: 1900px) {
+    #carousel-1{
+        background-image: url('Images/Slider/Slider1pc.jpg');
+      } 
+      
+    #about{
+        /* height: 45vh; */
+        font-size: 1.1rem;
+    }
+    .carousel-item{
+        height: 16vh;
+        min-height: 400px;
     }
     .card-title{
         margin-top: 3.2rem;

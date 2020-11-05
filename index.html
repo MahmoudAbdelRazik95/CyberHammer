@@ -4,7 +4,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>CyberHammer</title>
+    <title>Cyber Hammer</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="icon" href="Images/SVGs/Icon.svg">
 
@@ -55,7 +55,7 @@
     <div id="stick-here"></div>
     <div id="stickThis">
         <nav class="navbar navbar-expand-lg navbar-dark" id="mainNav">
-            <div class="container">
+            <div class="container-fluid">
                 <a class="navbar-brand js-scroll-trigger pointer" onclick="topFunction()" title="Go to top">
                     <img class="logo" src="Images/SVGs/Logo.svg" width="50" height="50"
                         onerror="this.removeAttribute('onerror'); this.src='Images/SVGs/Logo.svg'" />
@@ -63,19 +63,19 @@
                         onerror="this.removeAttribute('onerror'); this.src='Images/SVGs/TextLogo.svg'" />
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="outline: none;">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#stick-here">About</a>
+                            <a class="nav-link js-scroll-trigger" href="#stick-here" onclick="elementNavigation('stick-here')">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#games-start">Games</a>
+                            <a class="nav-link js-scroll-trigger" href="#games-start" onclick="elementNavigation('games-start')">Games</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                            <a class="nav-link js-scroll-trigger" href="#contact" onclick="elementNavigation('contact')">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -87,16 +87,11 @@
         <section id="about">
             <div class="container pt-5">
                 <div class="row">
-                    <div class="col-8 col-md-8 col-lg-8 mx-auto text-center">
+                    <div class="col-8 col-md-8 col-lg-10 mx-auto text-center">
                         <h2 class="section-title">About</h2>
-                        <p class="lead text-cener section-text">Cyber Hammer Games was founded in 2018 and has since
-                            grown to
-                            become an
-                            established game devalopment studio.
-                            We are fueled by our love for great story telling, stunning visuals, and thrilling gameplay.
-                            We
-                            work hard to bring our vision to life
-                            to create an exsiting and memorable gaming experiance for all our players.</p>
+                        <p class="lead text-cener section-text">Cyber Hammer Games was founded in 2018 and has since grown to become an established game development studio.
+                            We are fueled by our love for great storytelling, stunning visuals and thrilling gameplay.
+                            We work hard to bring our vision to life in order to create an exciting and memorable gaming experience for all our players.</p>
                     </div>
                 </div>
             </div>
@@ -128,7 +123,7 @@
                          <div class="card bg-greycolor text-white border-0">
                             <img class="card-img" src="" alt="Card image" id="card2">
                             <div class="card-img-overlay">
-                              <p class="card-title col-sm-5 offset-sm-7">Human Invadors</p>
+                              <p class="card-title col-sm-5 offset-sm-7">Human Invaders</p>
                               <p class="card-text col-sm-7 offset-sm-5 text-center game-text">Defend your home planet from the pesky invading humans in nostalgic arcade style.</p>
                               <p class="card-text col-sm-7 offset-sm-5 text-center game-text">
                                 <a href="https://play.google.com/store/apps/details?id=com.IntangibleRealmStudios.HumanInvaders" target="_blank"><img class="col-9 col-sm-5 col-lg-4 mb-3 mb-sm-0  pt-4 pt-sm-0 zoom" src="Images/Cards/GooglePlay.png" /></a>
@@ -155,7 +150,7 @@
                             <img class="card-img" src="" alt="Card image" id="card4">
                             <div class="card-img-overlay">
                               <p class="card-title col-sm-5 offset-sm-7">Neon Outrun</p>
-                              <p class="card-text col-sm-7 offset-sm-5 text-center game-text">Control the ball to avoid the obstacles and collect crystals to customize your play.</p>
+                              <p class="card-text col-sm-7 offset-sm-5 text-center game-text">Control the ball to avoid the obstacles and collect crystals to customize your gameplay.</p>
                               <p class="card-text col-sm-7 offset-sm-5 text-center game-text">
                                 <img class="col-9 col-sm-5 col-lg-4 mb-3 mb-sm-0  pt-4 pt-sm-0" src="Images/Cards/comingsoon.png" />
                             </p>
@@ -193,7 +188,7 @@
                 <a href="https://www.youtube.com/channel/UCNROmv_Q7oN3vIZpPGGNk6Q" target="_blank"><img class="logo mx-2 link-logos"
                         src="Images/SVGs/YouTube.svg"
                         onerror="this.removeAttribute('onerror'); this.src='Images/SVGs/Email.svg'" /></a>
-                <a href="mailto: mahmoudabdelrazik@hotmail.com" target="_blank"><img class="logo mx-2 link-logos" src="Images/SVGs/Email.svg"
+                <a href="mailto: contact@cyberhammergames.com" target="_blank"><img class="logo mx-2 link-logos" src="Images/SVGs/Email.svg"
                         onerror="this.removeAttribute('onerror'); this.src='Images/SVGs/Logo.svg'" /></a>
             </div>
             <div class="footer-text mt-3">

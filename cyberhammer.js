@@ -50,3 +50,7 @@ function topFunction() {
     //This strange selector seems to work universally
     $("html, body").animate({ scrollTop: 0 }, 1000);
 }
+
+function elementNavigation(elementID) {
+     $("html, body").animate({ scrollTop: $("#" + elementID).offset().top }, 1000);
+}
