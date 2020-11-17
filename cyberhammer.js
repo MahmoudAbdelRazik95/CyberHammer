@@ -54,3 +54,8 @@ function topFunction() {
 function elementNavigation(elementID) {
      $("html, body").animate({ scrollTop: $("#" + elementID).offset().top }, 1000);
 }
+
+function removeCookiesDiv()
+{
+    $('#cookies').remove();
+}

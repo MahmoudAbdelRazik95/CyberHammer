@@ -43,6 +43,7 @@
   }
   
   /* NAVBAR */
+
   #mainNav{
       background: black;
       /* height: 11vh; */
@@ -61,6 +62,33 @@
   .nav-item{
       text-align: center;
   }
+
+  /* Cookies*/
+
+  #cookies{
+      color: white;
+      background-color: black;
+  }
+
+  #cookies .container{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  #cookies .container a{
+      color: white;
+      text-decoration: underline;
+  }
+
+  /* #cookies button{
+    background-color: #0099ff;
+    border-color: #0099ff;
+    color: white;
+  } */
 
   /* Body */
   
@@ -81,7 +109,7 @@
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-}
+  }
 
   .section-title{
     margin-bottom: 22px;
@@ -195,6 +223,9 @@
         font-size: 0.8rem;
         padding: 0 1.5rem 0 1.5rem;
     }
+    #cookies{
+        height: 28%;
+    }
   }
   
   /* Small devices (landscape phones, 576px and up) */
@@ -251,6 +282,9 @@
         font-size: 0.6rem;
         padding: 0 1.3rem 0 0;
     }
+    #cookies{
+        height: 40%;
+    }
   }
    
   /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -300,6 +334,10 @@
         font-size: 0.8rem;
         padding: 0.1rem 1.6rem 0 0;
     }
+    #cookies{
+        height: 30%;
+        font-size: 0.7rem;
+    }
     .zoom {
     transition: transform .2s; /* Animation */
     margin: 0 auto;
@@ -333,6 +371,10 @@
         font-size: 0.95rem;
         padding: 0.8rem 2.5rem 0 0;
     }
+    #cookies{
+        height: 20%;
+        font-size: 0.9rem;
+    }
   }
    
   /* Extra large devices (large desktops, 1200px and up) */
@@ -359,6 +401,11 @@
         font-size: 1.1rem;
         padding: 1.1rem 2.8rem 0 0;
     }
+    #cookies{
+        height: 25%;
+        font-size: 1rem;
+    }
+  }
 
     /* Extra Extra large devices (Extra large screens, 1900px and up) */
   @media (min-width: 1900px) {
@@ -383,5 +430,8 @@
     .game-text{
         font-size: 1.1rem;
         padding: 1.1rem 2.8rem 0 0;
+    }
+    #cookies{
+      height: 25%;
     }
   }
